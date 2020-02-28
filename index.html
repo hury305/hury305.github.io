@@ -1,10 +1,31 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>My Site</title>
-    </head>
-    <body>
-        <h1>Welcome</h1>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>who i am</title>
+</head>
+<body>
+    <div class="container">
+        <canvas id="self-portrait" width="600px" height="800px"></canvas>
+        <img src="portrait.jpg" alt="" width="300px" height="400px">
+        <canvas id="title" width="300px" height="200px"></canvas>
+        <canvas id="name" width="300px" height="400px"></canvas>
+        <canvas id="nicknames" width="300px" height="400px"></canvas>
+        <canvas id="hobbies" width="300px" height="200px"></canvas>
+        <canvas id="birth"  width="200px" height="200px"></canvas>
+        <canvas id="accomplishment"  width="350px" height="350px"></canvas>
+        <canvas id="family" width="550px" height="550px"></canvas>
+        <canvas id="favorite" width="550px" height="550px"></canvas>
+        <img class="cats" src="cats.png" alt="" width="150px">
+        <canvas id="event" width="625px" height="550px"></canvas>
+    </div>
+    <div class="paint">
+        <input type="color"  class="js-color-picker  color-picker">
+    <input type="range" class="js-line-range" min="1" max="72" value="1">
+    <label class="js-range-value">1</label>px
+    <canvas class="js-paint  paint-canvas" width="898" height="1050"></canvas>
+    </div>
+    <script src="canvas.js" charset="utf-8"></script>
+</body>
 </html>

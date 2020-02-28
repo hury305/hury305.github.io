@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+}
+
+.paint {
+    position: absolute;
+    color: black;
+    left: calc(50% - 450px);
+    top: 50px;
+    z-index: 1;
+}
+
+.paint-canvas {
+    /* position: absolute; */
+    border: 1px black solid;
+    display: block;
+    top: 57px;
+  }
+  
+  .color-picker {
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+
+.container {
+    width: 900px;
+    height: 1050px;
+    display: inline-flex;
+    border: 50px solid rgb(243, 219, 243);
+    position: absolute;
+    left: calc(50% - 500px);   
+    margin-top: 50px;
+    background-color: rgb(243, 219, 243);
+}
+
+canvas {
+    position: absolute;
+}
+
+#title {
+    position: absolute;
+    font-size: 24pt;
+    top: 0;
+    left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#self-portrait {
+    left: 0;
+}
+
+#name {
+    left: 300px;
+}
+
+#nicknames {
+    left: 600px;
+}
+
+#hobbies {
+    position: absolute;
+    display: inline-flex;
+    left: 300px;
+    top: 200px;
+}
+
+#birth {
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+#accomplishment {
+    top: 400px;
+}
+
+#family {
+    position: absolute;
+    left: 350px;
+    top:300px;
+}
+
+#favorite {
+    top: 500px;
+    left: 350px;
+    position: absolute;
+}
+
+#event {
+    top: 750px;
+    position: absolute;
+}
+
+.cats {
+    position: absolute;
+    left: 350px;
+    top: 475px;
+    z-index: 1;
+}
