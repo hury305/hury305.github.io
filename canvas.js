@@ -62,6 +62,8 @@ gradient.addColorStop(0.75, "rgb(199, 122, 199)");
 gradient.addColorStop(1, "black");
 ctx.fillStyle = gradient;
 ctx.fillText("who i am", 40, 60);
+ctx.font = "12px time";
+ctx.fillText("draw on me", 40, 70);
 
 var c = document.getElementById("self-portrait");
 var ctx = c.getContext("2d");
